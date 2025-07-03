@@ -1,9 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import Test from './components/Test.vue'
+import BaseSlotsLayout from './BaseSlotsLayout.vue'
 
 
-const app = createApp(App)
+// const app = createApp(App)
+const app = createApp(BaseSlotsLayout)
 
 app.component('test', Test)
 app.mount('#app')
